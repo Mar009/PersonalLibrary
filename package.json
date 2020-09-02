@@ -1,0 +1,24 @@
+{
+  "name": "personallibrary",
+  "version": "1.0.0",
+  "description": "A small app for myself that acts as my personal library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mar009/PersonalLibrary.git"
+  },
+  "author": "Marz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mar009/PersonalLibrary/issues"
+  },
+  "homepage": "https://github.com/Mar009/PersonalLibrary#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  }
+}
