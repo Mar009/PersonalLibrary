@@ -1,6 +1,6 @@
 //Sequelize
 const Sequelize = require("sequelize");
-const sequelize = require("../config/config.json");
+const sequelize = require("../config/connection.js");
 
 //Books model for the DB
 const Books = sequelize.define("book", {
